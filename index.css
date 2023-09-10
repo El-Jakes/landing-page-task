@@ -232,12 +232,11 @@
   
   .hero-section {
     flex-direction: column;
-    /* gap: 2.5em; */
     text-align: center;
   }
 
   .hero-section img {
-    width: 250px;
+    width: 100%;
   }
 
   .about-section-items {
@@ -245,7 +244,7 @@
   }
 
   .about-img {
-    width: 125px;
+    width: 100%;
   }
 
   .about-section-text {
