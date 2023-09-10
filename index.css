@@ -22,9 +22,11 @@
   background-color: #ffffff;
   padding: 0.625em 3.125em;
   border-bottom: 1px solid #eee;
+  position: sticky;
 }
 
-.fa-bars {
+.fa-bars,
+.fa-xmark {
   display: none;
 }
 
@@ -117,9 +119,6 @@
 
 .about-img img {
   width: 250px;
-}
-
-.about-description-title {
 }
 
 .about-section-text {
@@ -222,18 +221,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: sticky;
   }
 
-  .fa-bars, .fa-xmark {
-    display: block;
-    position: relative;
-    font-size: 1.2rem;
-    right: 100px;
-  }
-  
+  .fa-bars,
   .fa-xmark {
-    left: 90px;
+    display: block;
+    font-size: 1.2rem;
+  }
+
+  .fa-xmark {
+    display: none;
   }
 
   .logo {
@@ -243,7 +241,7 @@
   }
 
   .logo img {
-    margin: 0 auto;
+    margin: 0 100px;
   }
 
   .nav-menu {
