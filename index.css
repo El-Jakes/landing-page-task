@@ -219,22 +219,27 @@
 @media (max-width: 425px) {
   .navbar {
     width: 100%;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
   }
 
-  .fa-bars {
-    display: inline-block;
+  .fa-bars, .fa-xmark {
+    display: block;
     position: relative;
     font-size: 1.2rem;
-    right: 120px;
+    right: 100px;
+  }
+  
+  .fa-xmark {
+    left: 90px;
   }
 
   .logo {
     display: flex;
     align-items: center;
+    padding-left: 1.875em;
   }
 
   .logo img {
@@ -245,6 +250,7 @@
     flex-direction: column;
     text-align: center;
     display: none;
+    list-style-type: none;
   }
 
   .hero-section {

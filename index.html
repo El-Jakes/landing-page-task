@@ -10,15 +10,16 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="logo">
-            <i class="fa-solid fa-bars" id="menu-items"></i>
+            <i class="fa-solid fa-bars" id="show-menu-items"></i>
             <img
             src="images/logo-dark.png"
             alt="logo of the page with the word GeekFolio"
             />
+            <i class="fa-solid fa-xmark" id="close-menu-items"></i>
         </div>
-        <ul class="nav-menu">
+        <ul class="nav-menu" id="nav-menu">
             <li class="nav-menu-item"><a href="#">home</a></li>
             <li class="nav-menu-item"><a href="#">service</a></li>
             <li class="nav-menu-item"><a href="#">portfolio</a></li>
@@ -145,5 +146,7 @@
       </div>
       <p class="copyright-info">© 2023 Rahad Ullah | All rights reserved</p>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
