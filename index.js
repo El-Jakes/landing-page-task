@@ -1,4 +1,3 @@
-// const navBar = document.getElementById("navbar");
 const showMenuItems = document.getElementById("show-menu-items");
 const closeMenuItems = document.getElementById("close-menu-items");
 const navMenu = document.getElementById("nav-menu");

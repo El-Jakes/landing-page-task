@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
+::selection {
+  color: #ff5e3a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +14,6 @@
   font-family: "Hind Siliguri", sans-serif;
 }
 
-::selection {
-  color: #ff5e3a;
-}
-
 /* NAVBAR STYLES */
 .navbar {
   display: flex;
@@ -22,6 +22,7 @@
   background-color: #ffffff;
   padding: 0.625em 3.125em;
   border-bottom: 1px solid #eee;
+  height: 70px;
   position: sticky;
 }
 
@@ -222,6 +223,7 @@
     justify-content: center;
     align-items: center;
     position: sticky;
+    top: 0;
   }
 
   .fa-bars,
@@ -237,7 +239,7 @@
   .logo {
     display: flex;
     align-items: center;
-    padding-left: 1.875em;
+    padding: 0 1.875em;
   }
 
   .logo img {
