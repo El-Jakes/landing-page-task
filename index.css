@@ -196,15 +196,6 @@
   list-style-type: none;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-a:hover {
-  color: #ff3a3a;
-  text-decoration: overline;
-}
-
 .footer-items-container a {
   text-decoration: none;
   color: #ffffff;
