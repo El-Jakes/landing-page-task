@@ -152,7 +152,7 @@
 }
 
 .card-img {
-  width: 100%;
+  width: 150px;
 }
 
 .card-title {
@@ -176,6 +176,7 @@
   justify-content: space-around;
   align-items: flex-start;
   border-bottom: 1px solid white;
+  /* gap: 2em; */
 }
 
 .footer-links {
@@ -205,9 +206,8 @@
   text-decoration: overline;
 }
 
-
 .copyright-info {
-    text-align: center;
-    padding: 15px;
-    font-size: .813rem;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.813rem;
 }
