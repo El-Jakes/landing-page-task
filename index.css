@@ -22,8 +22,8 @@
   background-color: #ffffff;
   padding: 0.625em 3.125em;
   border-bottom: 1px solid #eee;
-  height: 70px;
   position: sticky;
+  top: 0;
 }
 
 .fa-bars,
@@ -222,8 +222,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0;
   }
 
   .fa-bars,
