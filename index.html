@@ -4,27 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- FONTAWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="index.css" />
     <title>Geekfolio</title>
   </head>
   <body>
     <!-- NAVBAR -->
     <nav class="navbar" id="navbar">
-        <div class="logo">
-            <i class="fa-solid fa-bars" id="show-menu-items"></i>
-            <img
-            src="images/logo-dark.png"
-            alt="logo of the page with the word GeekFolio"
-            />
-            <i class="fa-solid fa-xmark" id="close-menu-items"></i>
-        </div>
-        <ul class="nav-menu" id="nav-menu">
-            <li class="nav-menu-item"><a href="#">home</a></li>
-            <li class="nav-menu-item"><a href="#">service</a></li>
-            <li class="nav-menu-item"><a href="#">portfolio</a></li>
-            <li class="nav-menu-item"><a href="#">contact</a></li>
-        </ul>
+      <div class="logo">
+        <i class="fa-solid fa-bars" id="show-menu-items"></i>
+        <img
+          src="images/logo-dark.png"
+          alt="logo of the page with the word GeekFolio"
+        />
+        <i class="fa-solid fa-xmark" id="close-menu-items"></i>
+      </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-menu-item"><a href="#">home</a></li>
+        <li class="nav-menu-item"><a href="#services">service</a></li>
+        <li class="nav-menu-item"><a href="#">portfolio</a></li>
+        <li class="nav-menu-item"><a href="#contact">contact</a></li>
+      </ul>
     </nav>
     <!-- HERO SECTION -->
     <section class="hero-section">
@@ -41,7 +47,7 @@
       <div class="hero-img"><img src="images/banner.png" alt="" /></div>
     </section>
     <!-- ABOUT SECTION -->
-    <section class="about-section">
+    <section class="about-section" id="about">
       <h2 class="about-section-title">About Us</h2>
       <div class="about-section-items">
         <div class="about-img">
@@ -63,7 +69,7 @@
       </div>
     </section>
     <!-- SERVICES SECTION -->
-    <section class="services-section">
+    <section class="services-section" id="services">
       <h2 class="services-section-title">Our Services</h2>
       <div class="services-section-cards">
         <div class="card">
@@ -120,7 +126,7 @@
         <div class="footer-links">
           <h3>Useful Links</h3>
           <ul>
-            <li><a href="#">About Us</a></li>
+            <li><a href="#about">About Us</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">News and Article</a></li>
             <li><a href="#">Legal Notice</a></li>
@@ -130,12 +136,12 @@
           <h3>Supports</h3>
           <ul>
             <li><a href="#">Help Center</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
             <li><a href="#">FAQ</a></li>
             <li><a href="#">Parent Community</a></li>
           </ul>
         </div>
-        <div class="footer-contact-info footer-links">
+        <div class="footer-contact-info footer-links" id="contact">
           <h3>Contact Information</h3>
           <p>
             Feel free to contact & reach us !! 3557 Derek Drive, Orlando,
