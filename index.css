@@ -23,6 +23,7 @@
   padding: 0.625em 3.125em;
   border-bottom: 1px solid #eee;
   position: sticky;
+  top: 0;
 }
 
 .fa-bars,
@@ -236,7 +237,7 @@
   .logo {
     display: flex;
     align-items: center;
-    padding: 0 1.auto;
+    padding: 0 1auto;
     /* padding: 0 1.875em; */
   }
 
