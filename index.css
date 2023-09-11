@@ -301,7 +301,8 @@
   }
 
   .hero-section img {
-    width: 100%;
+    width: 200px;
+    margin: 2em auto;
   }
 
   .about-section-items {
