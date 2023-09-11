@@ -300,6 +300,10 @@
     text-align: center;
   }
 
+  .hero-title {
+    margin-top: 2.5em;
+  }
+
   .hero-section img {
     width: 200px;
     margin: 2em auto;
